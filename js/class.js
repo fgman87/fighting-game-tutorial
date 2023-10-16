@@ -98,6 +98,8 @@ class Fighter extends Sprite {
 			sprites[sprite].image.src = sprites[sprite].imageSrc
 		}
 	}
+	
+	// create a cpu to fight against
 	aiControl(player) {
     	const playerX = player.position.x;
     	const enemyX = this.position.x;
